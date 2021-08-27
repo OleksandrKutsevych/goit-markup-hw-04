@@ -34,6 +34,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 
 .page-header {
@@ -283,13 +284,19 @@ body {
 
 /* team */
 
-.container.comand {
+.text-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section.ourteam {
+  background: #f5f4fa;
 }
 
 .team-title-last {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.89;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -300,7 +307,7 @@ body {
 
 .team-text {
   font-size: 16px;
-  line-height: 1.89;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -334,9 +341,9 @@ body {
 }
 
 .card-image {
+  display: block;
   min-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 /* Footer */
@@ -522,6 +529,10 @@ body {
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
 }
 
 /* Icon */
@@ -529,7 +540,6 @@ body {
 .hung-icon {
   width: 70px;
   height: 70px;
-  margin: 25px 100px;
 }
 
 .maillink {
@@ -550,7 +560,7 @@ body {
 .networks {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  align-items: center;
 }
 
 .network-item {
